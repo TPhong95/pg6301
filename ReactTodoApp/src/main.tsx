@@ -1,5 +1,5 @@
-import { createRoot } from "react-dom/client";
 import React, { useState } from "react";
+import { createRoot } from "react-dom/client";
 
 function Application() {
   const [tasks, setTasks] = useState([
@@ -18,4 +18,4 @@ function Application() {
   );
 }
 
-createRoot(document.getElementById("app")).render(<Application />);
+createRoot(document.getElementById("app")!).render(<Application />);
