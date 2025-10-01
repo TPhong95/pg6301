@@ -1,0 +1,28 @@
+{
+  "name": "pg6301",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc --noEmit && prettier .",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TPhong95/pg6301.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TPhong95/pg6301/issues"
+  },
+  "homepage": "https://github.com/TPhong95/pg6301#readme",
+  "type": "module",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.7"
+  }
+}
